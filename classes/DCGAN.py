@@ -1,4 +1,6 @@
-from homa import get_device, settings
+from homa import get_device
+from .Discriminator import Discriminator
+from .Generator import Generator
 
 
 class DGGAN:
